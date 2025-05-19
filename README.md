@@ -46,19 +46,10 @@ A desktop application that reads strain and vibration data from sensors, analyze
 - Each row in the dataset includes:
   - `strain`: a float value
   - `vibration`: a float value
-
-Example:
-
-```csv
-strain,vibration
-0.3,0.04
-0.7,0.1
-0.9,0.25
-
 ## 🎯 Objective : 
 To assist infrastructure inspectors and engineers in real-time monitoring and decision-making by leveraging AI for structural integrity assessment.
 
-## 🕹️ Controls  :
+## 🕹️ Controls:
 ▶ Start Monitoring – Begins analysis from the first record
 
 ⏹ Stop Monitoring – Pauses monitoring at the current index
@@ -69,3 +60,12 @@ Sensor Values	AI Response	Alert
 Strain > 0.8 & Vibration > 0.2	"Critical stress"	🚨 Emergency alarm
 Strain > 0.5 & Vibration > 0.05	"Moderate stress"	⚠️ Warning beep
 Else	"Normal operation"	✅ Safe status
+
+Example:
+
+```csv
+strain,vibration
+0.3,0.04
+0.7,0.1
+0.9,0.25
+
