@@ -57,9 +57,9 @@ To assist infrastructure inspectors and engineers in real-time monitoring and de
 
 ## 📈 Output Explanation :
 ### Sensor Values	AI Response	Alert:
-Strain > 0.8 & Vibration > 0.2	"Critical stress"	🚨 Emergency alarm
-Strain > 0.5 & Vibration > 0.05	"Moderate stress"	⚠️ Warning beep
-Else	"Normal operation"	✅ Safe status
+**Strain > 0.8 & Vibration > 0.2	"Critical stress"	🚨 Emergency alarm**
+**Strain > 0.5 & Vibration > 0.05	"Moderate stress"	⚠️ Warning beep**
+**Else	"Normal operation"	✅ Safe status**
 
 Example:
 
